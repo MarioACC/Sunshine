@@ -4,7 +4,30 @@
     <string name="app_name">Sunshine</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    
     <string name="action_refresh" translatable="false">Refresh</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="action_location" translatable="true" >See Location</string>
 
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Strings of location setting -->
+    <string name="pref_location_label">Location</string>
+    <string name="pref_location_key" translatable="false">location</string>
+    <string name="pref_location_default" translatable="false">94043</string>
+
+
+    <!-- Strings of units setting -->
+    <string name="pref_units_label">Temperature Units</string>
+    <string name="pref_units_key" translatable="false">units</string>
+    <string name="pref_units_metric" translatable="false">Metric</string>
+    <string name="pref_units_imperial" translatable="false">Metric</string>
+    <string name="action_send">Share</string>
+    <string-array name="pref_units_entry_array">
+        <item>Metric</item>
+        <item>Imperial</item>
+    </string-array>
+    <string-array name="pref_units_entryValues_array">
+        <item>Metric</item>
+        <item>Imperial</item>
+    </string-array>
 </resources>
